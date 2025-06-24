@@ -2,7 +2,7 @@ import axios from "axios";
 import { BASE_URL } from "./config";
 
 const apiService = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://pokemon-be-tkcu.onrender.com",
 });
 
 apiService.interceptors.request.use(
